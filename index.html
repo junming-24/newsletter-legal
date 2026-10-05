@@ -90,14 +90,14 @@
     <li>Your reading preferences — topics, coverage rules, delivery schedule, explanation style, and any free-text requests you type (e.g., "focus more on X")</li>
     <li>"Memory" items — short notes about your interests or context, either things you told the app directly or things it inferred from your usage, used to personalize future editions</li>
     <li>Reading progress — how far you've read in each edition, kept for 14 days and used only to sync your place across your own devices</li>
-    <li>Which editions you have opened, and when the app was last open, so that a missed edition's stories can be carried into the next one and so that scheduled editions can be paused if the app has not been opened for several days</li>
+    <li>Which editions you have opened, and when the app was last open, so that a missed edition's stories can be carried into the next one and so that we can stop generating editions you are not reading: scheduled editions are paused for your whole account if the app has not been opened for 7 days, and a single newsletter is paused (and shows a Resume button) after 5 of its editions in a row were delivered but never opened. Opening the app resumes an account pause, and we then prepare today's edition right away</li>
     <li>Reactions — when you mark a story as liked, not for me, or looks wrong (optionally with a short note), we keep the reaction and your note for 365 days, and use them to adjust your newsletter's learned preferences</li>
     <li>Questions you ask using the Reader's "Ask" feature, including any text you highlight for context, and the app's answers</li>
     <li>Your newsletters and the editions generated for you, which are kept with your account</li>
   </ul>
 
   <h3>2.3 Push notifications</h3>
-  <p>If you allow notifications, we store a device push token (used only to deliver a daily "your edition is ready" alert). Notification content never includes your newsletter's story text, personalization data, or credentials.</p>
+  <p>If you allow notifications, we store a device push token (used only to deliver a daily "your edition is ready" alert, and one short reminder when your newsletters are paused after 7 days without opening the app). Notification content never includes your newsletter's story text, personalization data, or credentials.</p>
 
   <h3>2.4 Subscription &amp; payments</h3>
   <p>Subscriptions are sold through Apple's In-App Purchase and managed by RevenueCat. We receive your subscription/plan status linked to your account — we never receive or store your card number, bank details, or other payment credentials; Apple and RevenueCat handle those directly.</p>
