@@ -89,7 +89,7 @@
   <ul>
     <li>Your reading preferences — topics, coverage rules, delivery schedule, explanation style, and any free-text requests you type (e.g., "focus more on X")</li>
     <li>"Memory" items — short notes about your interests or context, either things you told the app directly or things it inferred from your usage, used to personalize future editions</li>
-    <li>Reading progress — how far you've read in each edition, kept for 14 days and used only to sync your place across your own devices</li>
+    <li>Reading progress — how far you've read in each edition, kept while your account exists and used only to sync your place across your own devices</li>
     <li>Which editions you have opened, and when the app was last open, so that a missed edition's stories can be carried into the next one and so that we can stop generating editions you are not reading: scheduled editions are paused for your whole account if the app has not been opened for 7 days, and a single newsletter is paused (and shows a Resume button) after 5 of its editions in a row were delivered but never opened. Opening the app resumes an account pause, and we then prepare today's edition right away</li>
     <li>Reactions — when you mark a story as liked, not for me, or looks wrong (optionally with a short note), we keep the reaction and your note for 365 days, and use them to adjust your newsletter's learned preferences</li>
     <li>Questions you ask using the Reader's "Ask" feature, including any text you highlight for context, and the app's answers</li>
@@ -148,7 +148,7 @@
 
   <h2>6. Data retention</h2>
   <ul>
-    <li>Reading progress is kept for 14 days, then deleted automatically</li>
+    <li>Reading progress is kept while your account exists and is deleted when you delete your account</li>
     <li>Reactions and their notes are kept for 365 days, then deleted automatically</li>
     <li>Account, preference, newsletter, edition and memory data are kept until you delete your account (or delete the newsletter or memory item)</li>
     <li>Notification device tokens are kept until you disable notifications, sign out, or delete your account</li>
@@ -160,7 +160,7 @@
   <h2>7. Your rights and choices</h2>
   <h3>Delete your account and data</h3>
   <p>You can delete your account at any time from Settings inside the app. Deletion first blocks access to your account, then an automated job (which runs every 15 minutes and retries if a step fails) deletes your Firebase sign-in record, which includes your email, and permanently removes your account data — newsletters and editions, preferences, memory items, reactions, reading progress, profile photo, notification devices, and question history — from our systems.</p>
-  <p><strong>Deleting your account does not cancel an App Store subscription.</strong> Cancel it in iOS Settings &rarr; Apple ID &rarr; Subscriptions; otherwise Apple continues to bill you. RevenueCat may keep your purchase record under its own retention terms; email us if you want it removed.</p>
+  <p><strong>Deleting your account does not cancel an App Store subscription.</strong> Cancel it in iOS Settings &rarr; Apple ID &rarr; Subscriptions; otherwise Apple continues to bill you. RevenueCat may keep your purchase record under its own retention terms. When you delete your account, we also request deletion of your customer record at RevenueCat; Apple keeps its own purchase records. Email us if you want anything further removed.</p>
 
   <h3>California privacy rights (CCPA/CPRA)</h3>
   <p>If you are a California resident, you have the right to:</p>
